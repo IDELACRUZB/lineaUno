@@ -1,0 +1,21 @@
+{
+    "lineaUno":{
+        "lineaUno":[
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "reclamosOperacionesV1",
+                        "properties": {
+                            "dbType": {
+                                "N° de Documento": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

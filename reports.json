@@ -1,0 +1,56 @@
+{
+    "lineaUno":{
+        "lineaUno":[
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "asociacionDniInterno",
+                        "properties": {
+                            "dbType": {
+                                "7.- N°TARJETA_GYM": "str",
+                                "9.- N° DNI_GYM": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "bloqueoTarjetasInterno",
+                        "properties": {
+                            "dbType": {
+                                "9.- N° DNI_GYM": "str",
+                                "13.- TELEFONO_GYM": "str",
+                                "ESTACION DE CREACION OATP":"str",
+                                "ESTACION DE ACTUALIZACION OATP": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "pedidosInformacionInterno",
+                        "properties": {
+                            "dbType": {
+                                "ESTACION DE CREACION OATP": "str",
+                                "ESTACION DE ACTUALIZACION OATP": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
