@@ -15,7 +15,7 @@ ROOT_PATH = properties['LOAD_PATH']
 FILES_PATH = []
 FILES_NOT_FOUND = []
 
-jsonDataReports = 'reports.json'
+jsonDataReports = 'prueba.json'
 
 with open(jsonDataReports, "r") as json_file:
     data = json.load(json_file)
@@ -33,7 +33,7 @@ with open(jsonDataReports, "r") as json_file:
                 directoryPath = ROOT_PATH  + campana + "\\" + platform + "\\" + codigo
                 #currentDate = datetime.now().strftime("%Y%m%d")
                 #print(directoryPath)
-                currentDate = '20230828'
+                currentDate = '20230925'
 
                 # Patron de coincidencia para los nombres de archivo
                 patron = f"*_{currentDate}_*"

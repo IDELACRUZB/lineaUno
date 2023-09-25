@@ -50,6 +50,34 @@
                         }
                     }
                 ]
+            },
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "reclamosOperacionesV1",
+                        "properties": {
+                            "dbType": {
+                                "N° de Documento": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "lineaUno",
+                "reports":[
+                    {
+                        "code": "sugerenciasInterno",
+                        "properties": {
+                            "dbType": { },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
             }
         ]
     }

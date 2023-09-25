@@ -34,10 +34,11 @@ class ReportService:
         df.columns = df.columns.str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8')
         df.columns = df.columns.str.lstrip('_')
 
-        #print(df.columns)
-        #for i in df.columns:
-        #    print(i)
-        #exit()
+        """
+        print(df.columns)
+        for i in df.columns:
+            print(i)
+        exit() #"""
         # Configurar la conexión a la base de datos
         properties = self.getProperties()
         conn = pymysql.connect(

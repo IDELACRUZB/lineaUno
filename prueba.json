@@ -5,7 +5,7 @@
                 "campaign": "lineaUno",
                 "reports":[
                     {
-                        "code": "reclamosOperacionesV1",
+                        "code": "sugerenciasInterno",
                         "properties": {
                             "dbType": {
                                 "N° de Documento": "str"
